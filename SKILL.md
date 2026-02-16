@@ -3,6 +3,7 @@ name: auditclaw-azure
 description: Azure compliance evidence collection for auditclaw-grc. 12 read-only checks across storage, NSG, Key Vault, SQL, compute, App Service, and Defender for Cloud.
 version: 1.0.1
 user-invocable: true
+homepage: https://github.com/avansaber/auditclaw-azure
 metadata: {"openclaw":{"type":"executable","requires":{"bins":["python3"],"env":["AZURE_SUBSCRIPTION_ID"]}}}
 ---
 # AuditClaw Azure
