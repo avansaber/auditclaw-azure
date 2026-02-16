@@ -5,7 +5,7 @@ version: 1.0.1
 user-invocable: true
 homepage: https://www.auditclaw.ai
 source: https://github.com/avansaber/auditclaw-azure
-metadata: {"openclaw":{"type":"executable","requires":{"bins":["python3"],"env":["AZURE_SUBSCRIPTION_ID"]}}}
+metadata: {"openclaw":{"type":"executable","install":{"pip":"scripts/requirements.txt"},"requires":{"bins":["python3"],"env":["AZURE_SUBSCRIPTION_ID","AZURE_CLIENT_ID","AZURE_CLIENT_SECRET","AZURE_TENANT_ID"]}}}
 ---
 # AuditClaw Azure
 
